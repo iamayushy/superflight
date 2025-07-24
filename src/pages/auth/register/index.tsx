@@ -61,8 +61,8 @@ function Register ({isModalView, onSignin, onSuccessFull}: IRegisterProps) {
     return <div className="flex flex-col items-center mt-16">
         <AuthBase
         header={{
-            title: "Sign in to continue",
-            subtitle: "Sign in to access all the features on this app",
+            title: "Create an account to continue",
+            subtitle: "Create an account to access all the features on this app",
             icon: (
             <img src="https://cdn.pixelbin.io/v2/damp-resonance-90df08/original/superflight/login.svg" />
           ),
